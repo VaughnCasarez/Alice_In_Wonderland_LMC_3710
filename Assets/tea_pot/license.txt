@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tea pot
+* source:	https://sketchfab.com/3d-models/tea-pot-a0197ff303f84bbab6157812b3e5ce21
+* author:	ApprenticeRaccoon (https://sketchfab.com/ApprenticeRaccoon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tea pot" (https://sketchfab.com/3d-models/tea-pot-a0197ff303f84bbab6157812b3e5ce21) by ApprenticeRaccoon (https://sketchfab.com/ApprenticeRaccoon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
