@@ -1,0 +1,70 @@
+fileFormatVersion: 2
+guid: 574e9353b7642cc498099a9db2baea62
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\breakfast__picnic\scene.bin
+    assetPath: Assets\breakfast__picnic\scene.bin
+  - type: 1
+    originalUri: Assets\breakfast__picnic\textures\material_baseColor.png
+    assetPath: Assets\breakfast__picnic\textures\material_baseColor.png
+  - type: 1
+    originalUri: Assets\breakfast__picnic\textures\TeaPot_baseColor.png
+    assetPath: Assets\breakfast__picnic\textures\TeaPot_baseColor.png
+  - type: 1
+    originalUri: Assets\breakfast__picnic\textures\wood_baseColor.png
+    assetPath: Assets\breakfast__picnic\textures\wood_baseColor.png
+  - type: 1
+    originalUri: Assets\breakfast__picnic\textures\Croissant_baseColor.png
+    assetPath: Assets\breakfast__picnic\textures\Croissant_baseColor.png
+  - type: 1
+    originalUri: Assets\breakfast__picnic\textures\material_4_baseColor.png
+    assetPath: Assets\breakfast__picnic\textures\material_4_baseColor.png
+  - type: 1
+    originalUri: Assets\breakfast__picnic\textures\material_5_baseColor.png
+    assetPath: Assets\breakfast__picnic\textures\material_5_baseColor.png
+  - type: 1
+    originalUri: Assets\breakfast__picnic\textures\Plate_baseColor.png
+    assetPath: Assets\breakfast__picnic\textures\Plate_baseColor.png
+  - type: 1
+    originalUri: Assets\breakfast__picnic\textures\Knive_baseColor.png
+    assetPath: Assets\breakfast__picnic\textures\Knive_baseColor.png
+  - type: 1
+    originalUri: Assets\breakfast__picnic\textures\material_8_baseColor.png
+    assetPath: Assets\breakfast__picnic\textures\material_8_baseColor.png
+  - type: 1
+    originalUri: Assets\breakfast__picnic\textures\Stem_baseColor.png
+    assetPath: Assets\breakfast__picnic\textures\Stem_baseColor.png
+  - type: 1
+    originalUri: Assets\breakfast__picnic\textures\Flower_baseColor.png
+    assetPath: Assets\breakfast__picnic\textures\Flower_baseColor.png
+  - type: 1
+    originalUri: Assets\breakfast__picnic\textures\Smoke_baseColor.png
+    assetPath: Assets\breakfast__picnic\textures\Smoke_baseColor.png
+  - type: 1
+    originalUri: Assets\breakfast__picnic\textures\Leaf_baseColor.png
+    assetPath: Assets\breakfast__picnic\textures\Leaf_baseColor.png
+  reportItems: []
