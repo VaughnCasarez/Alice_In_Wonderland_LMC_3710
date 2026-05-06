@@ -61,7 +61,7 @@ public class DialogManager : MonoBehaviour, IPointerClickHandler
 
         ShowCurrentLine();
 
-        if (currentIndex == 3)
+        if (currentIndex == 3 || currentIndex == 6 || currentIndex == 12 || currentIndex == 15 || currentIndex == 19)
         {
             Debug.Log("Reached line 4, starting voice listener");
             StartCoroutine(ListenThenAdvance());

@@ -7849,10 +7849,6 @@ MonoBehaviour:
     portrait: {fileID: 21300000, guid: 1b733323c4bfd304497a54a1b7320aa0, type: 3}
     speakerName: MH
     voiceClip: {fileID: 8300000, guid: 9ebe14d4efd508d4a851433ee75fcba1, type: 3}
-  - text: I was going to say treacle.
-    portrait: {fileID: 21300000, guid: 1b733323c4bfd304497a54a1b7320aa0, type: 3}
-    speakerName: MH
-    voiceClip: {fileID: 0}
   - text: That isn't an answer. That's a food. More tea?
     portrait: {fileID: 21300000, guid: bcdcd828aaec9014fa7ce8080f6be85a, type: 3}
     speakerName: MH
@@ -7866,12 +7862,6 @@ MonoBehaviour:
     portrait: {fileID: 21300000, guid: 1b733323c4bfd304497a54a1b7320aa0, type: 3}
     speakerName: MH
     voiceClip: {fileID: 8300000, guid: 12a55cdbcad871940a28705884849c8d, type: 3}
-  - text: 'And we shall keep moving down until we reach the beginning again. That''s
-      how time works when you''ve had a quarrel with it, you see. Have you ever quarreled
-      with time? '
-    portrait: {fileID: 21300000, guid: faf8931feba49234284876a44067210c, type: 3}
-    speakerName: MH
-    voiceClip: {fileID: 8300000, guid: f1e141804c4b2394c8f90874166eed5d, type: 3}
   - text: 'And we shall keep moving down until we reach the beginning again. That''s
       how time works when you''ve had a quarrel with it, you see. Have you ever quarreled
       with time? '
