@@ -4453,6 +4453,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2112c0c8f1f534341abf0657b63cc125, type: 3}
+--- !u!1001 &1133145629
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -6689036041284674117, guid: 5aa5c3bfa59c13a49b4c86501b3c2986, type: 3}
+      propertyPath: m_Name
+      value: scene (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 5aa5c3bfa59c13a49b4c86501b3c2986, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 5aa5c3bfa59c13a49b4c86501b3c2986, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 5aa5c3bfa59c13a49b4c86501b3c2986, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 5aa5c3bfa59c13a49b4c86501b3c2986, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.5319004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 5aa5c3bfa59c13a49b4c86501b3c2986, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5319007
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 5aa5c3bfa59c13a49b4c86501b3c2986, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.46592045
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 5aa5c3bfa59c13a49b4c86501b3c2986, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.46592042
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 5aa5c3bfa59c13a49b4c86501b3c2986, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 5aa5c3bfa59c13a49b4c86501b3c2986, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774220344278030320, guid: 5aa5c3bfa59c13a49b4c86501b3c2986, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -277.566
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -5645937942226959685, guid: 5aa5c3bfa59c13a49b4c86501b3c2986, type: 3}
 --- !u!1001 &1153488242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7750,6 +7807,7 @@ GameObject:
   - component: {fileID: 1973519655}
   - component: {fileID: 1973519654}
   - component: {fileID: 1973519653}
+  - component: {fileID: 1973519656}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -7794,13 +7852,104 @@ MonoBehaviour:
   dialogText: {fileID: 1260848029}
   portraitImage: {fileID: 1677278050}
   speakerNameText: {fileID: 0}
+  audioSource: {fileID: 1973519656}
   lines:
   - text: 'No room! No room! There is absolutely no room! '
-    portrait: {fileID: 21300000, guid: 976e28fd05dde91429107e5f857f3c89, type: 3}
+    portrait: {fileID: 21300000, guid: faf8931feba49234284876a44067210c, type: 3}
     speakerName: Mad Hatter
+    voiceClip: {fileID: 8300000, guid: 812c26d9b162db942968984a6970e794, type: 3}
   - text: 'No room whatsoever. None at all. You really shouldn''t sit there. '
-    portrait: {fileID: 21300000, guid: db3e7b7c8db355e499429545071a0321, type: 3}
+    portrait: {fileID: 21300000, guid: bcdcd828aaec9014fa7ce8080f6be85a, type: 3}
     speakerName: Queen Of Hearts
+    voiceClip: {fileID: 8300000, guid: 47aa5c97e2c95f6478fa53369e192038, type: 3}
+  - text: Unless you do. Then it was your idea.
+    portrait: {fileID: 21300000, guid: 1b733323c4bfd304497a54a1b7320aa0, type: 3}
+    speakerName: Hare
+    voiceClip: {fileID: 8300000, guid: 931ac63709ccc25478277d36701df65d, type: 3}
+  - text: Well. Here you are then. I suppose you'll want tea. Everyone wants tea.
+      Do you know what day it is?
+    portrait: {fileID: 21300000, guid: faf8931feba49234284876a44067210c, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: 36e67f8e2597310409cb2def09fee241, type: 3}
+  - text: 'Hmm. The watch says otherwise. Two days off at least. The March Hare put
+      butter in it, you see. Ruined it completely. '
+    portrait: {fileID: 21300000, guid: faf8931feba49234284876a44067210c, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: cd39fb09c6d7eba4d81583d9c4d68b55, type: 3}
+  - text: ' It was the best butter. I want that on record.'
+    portrait: {fileID: 21300000, guid: 1b733323c4bfd304497a54a1b7320aa0, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: 81dac290a6ea2324493a56855548b8ca, type: 3}
+  - text: It was terrible butter and you know it. Now then. I have a riddle for you.
+      Why is a raven like a writing desk?
+    portrait: {fileID: 21300000, guid: faf8931feba49234284876a44067210c, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: 46bd3d10f108e1f40b4edf260c562ba6, type: 3}
+  - text: Interesting. Very interesting indeed. I have absolutely no idea what the
+      answer is either, so we are perfectly matched.
+    portrait: {fileID: 21300000, guid: faf8931feba49234284876a44067210c, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: 7173af96fb7343d4484f081c9bb8450f, type: 3}
+  - text: 'Nobody knows the answer. That''s rather the point. '
+    portrait: {fileID: 21300000, guid: bcdcd828aaec9014fa7ce8080f6be85a, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: 61d28cd836c36774fbfbc8c8b28b7799, type: 3}
+  - text: I know the answer.
+    portrait: {fileID: 21300000, guid: 1b733323c4bfd304497a54a1b7320aa0, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: d7c7c386ca4af374cb1fa74a57a8580b, type: 3}
+  - text: ' The Hare does not know the answer.'
+    portrait: {fileID: 21300000, guid: bcdcd828aaec9014fa7ce8080f6be85a, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: 3e319ac848144d04bb7d5ee95f09d407, type: 3}
+  - text: I was going to say treacle.
+    portrait: {fileID: 21300000, guid: 1b733323c4bfd304497a54a1b7320aa0, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: 9ebe14d4efd508d4a851433ee75fcba1, type: 3}
+  - text: That isn't an answer. That's a food. More tea?
+    portrait: {fileID: 21300000, guid: bcdcd828aaec9014fa7ce8080f6be85a, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: f2c31482f897a9e43bf29b6fad29ec60, type: 3}
+  - text: Wonderful. Move down, move down. We always move down when we want more
+      tea. Clean cups are at the other end. We never wash them, we simply move down.
+    portrait: {fileID: 21300000, guid: faf8931feba49234284876a44067210c, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: 94226481a5c4e5847ae4a3f43de9d94d, type: 3}
+  - text: We've been moving down since six o'clock this morning.
+    portrait: {fileID: 21300000, guid: 1b733323c4bfd304497a54a1b7320aa0, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: 12a55cdbcad871940a28705884849c8d, type: 3}
+  - text: 'And we shall keep moving down until we reach the beginning again. That''s
+      how time works when you''ve had a quarrel with it, you see. Have you ever quarreled
+      with time? '
+    portrait: {fileID: 21300000, guid: faf8931feba49234284876a44067210c, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: f1e141804c4b2394c8f90874166eed5d, type: 3}
+  - text: You should try it sometime. Or perhaps you shouldn't. It's terribly inconvenient.
+      Time stopped for us right here at tea and here we shall remain. Though I must
+      say the company has improved slightly since you arrived.
+    portrait: {fileID: 21300000, guid: faf8931feba49234284876a44067210c, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: 05a412213e4377a4aaf05fd11e76babf, type: 3}
+  - text: Only slightly.
+    portrait: {fileID: 21300000, guid: bcdcd828aaec9014fa7ce8080f6be85a, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: 9b4b49b36dbe8c84a86365671ba9e9a8, type: 3}
+  - text: I thought you were a mushroom at first.
+    portrait: {fileID: 21300000, guid: 1b733323c4bfd304497a54a1b7320aa0, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: 3d83009e96e72dc4e8413bd985a26103, type: 3}
+  - text: Nobody asked you, Hare. Now. Would you like a story, or another cup of
+      tea, or do you have somewhere terribly important to be?
+    portrait: {fileID: 21300000, guid: faf8931feba49234284876a44067210c, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: de821204bed449e4a9bebfbb78856820, type: 3}
+  - text: 'Splendid answer. I have no idea what it means, but I like the sound of
+      it tremendously. On your way then! '
+    portrait: {fileID: 21300000, guid: faf8931feba49234284876a44067210c, type: 3}
+    speakerName: MH
+    voiceClip: {fileID: 8300000, guid: 6f213bff3fd05bd4f8f58eabdeef4e99, type: 3}
+  micSensitivity: 0.02
 --- !u!114 &1973519654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7839,6 +7988,103 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973519651}
   m_CullTransparentMesh: 1
+--- !u!82 &1973519656
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973519651}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1979501589
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8699,3 +8945,4 @@ SceneRoots:
   - {fileID: 398545745}
   - {fileID: 1522123650}
   - {fileID: 1040556707}
+  - {fileID: 1133145629}
