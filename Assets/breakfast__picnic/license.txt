@@ -1,0 +1,11 @@
+Model Information:
+* title:	Breakfast & Picnic
+* source:	https://sketchfab.com/3d-models/breakfast-picnic-398a8c59c8d6400d9179c7d1313ddd84
+* author:	arlettaleviani (https://sketchfab.com/arlettaleviani)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Breakfast & Picnic" (https://sketchfab.com/3d-models/breakfast-picnic-398a8c59c8d6400d9179c7d1313ddd84) by arlettaleviani (https://sketchfab.com/arlettaleviani) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
