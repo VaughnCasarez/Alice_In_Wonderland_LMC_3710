@@ -44,9 +44,7 @@ public class DialogManager : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (waitingForVoice) return;
-
-        AdvanceDialog();
+        // Click disabled (auto flow only)
     }
 
     void AdvanceDialog()
@@ -60,16 +58,12 @@ public class DialogManager : MonoBehaviour, IPointerClickHandler
         }
 
         ShowCurrentLine();
-
-        if (currentIndex == 3 || currentIndex == 6 || currentIndex == 12 || currentIndex == 15 || currentIndex == 19)
-        {
-            Debug.Log("Reached line 4, starting voice listener");
-            StartCoroutine(ListenThenAdvance());
-        }
     }
 
     void ShowCurrentLine()
     {
+        StopAllCoroutines();
+
         DialogLine line = lines[currentIndex];
 
         dialogText.text = line.text;
@@ -95,18 +89,36 @@ public class DialogManager : MonoBehaviour, IPointerClickHandler
             audioSource.clip = line.voiceClip;
             audioSource.Play();
         }
+
+        StartCoroutine(HandleLineProgression());
+    }
+
+    IEnumerator HandleLineProgression()
+    {
+        DialogLine line = lines[currentIndex];
+
+        // Wait for actual audio playback to finish (fixes first-line delay bug)
+        if (line.voiceClip != null)
+        {
+            yield return new WaitUntil(() => !audioSource.isPlaying);
+        }
+
+        // Mic trigger points
+        if (currentIndex == 3 || currentIndex == 6 || currentIndex == 12 || currentIndex == 15 || currentIndex == 19)
+        {
+            Debug.Log("Starting voice listener at index " + currentIndex);
+            yield return StartCoroutine(ListenThenAdvance());
+        }
+        else
+        {
+            yield return new WaitForSeconds(0.3f);
+            AdvanceDialog();
+        }
     }
 
     IEnumerator ListenThenAdvance()
     {
         waitingForVoice = true;
-
-        // Wait for any voice clip on line 4 to finish before listening
-        if (lines[currentIndex].voiceClip != null)
-        {
-            Debug.Log("Waiting for voice clip to finish...");
-            yield return new WaitForSeconds(lines[currentIndex].voiceClip.length);
-        }
 
         micClip = Microphone.Start(null, true, 10, 44100);
 
@@ -115,11 +127,14 @@ public class DialogManager : MonoBehaviour, IPointerClickHandler
         Debug.Log("Mic is live, listening for voice...");
 
         bool heard = false;
+
         while (!heard)
         {
             yield return new WaitForSeconds(0.1f);
+
             float volume = GetMicVolume();
             Debug.Log("Mic volume: " + volume);
+
             if (volume > micSensitivity)
                 heard = true;
         }
@@ -138,12 +153,14 @@ public class DialogManager : MonoBehaviour, IPointerClickHandler
     {
         int sampleWindow = 128;
         int micPosition = Microphone.GetPosition(null) - sampleWindow;
+
         if (micPosition < 0) return 0;
 
         float[] samples = new float[sampleWindow];
         micClip.GetData(samples, micPosition);
 
         float sum = 0;
+
         foreach (float s in samples)
             sum += Mathf.Abs(s);
 

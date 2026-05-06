@@ -7868,9 +7868,9 @@ MonoBehaviour:
     portrait: {fileID: 21300000, guid: faf8931feba49234284876a44067210c, type: 3}
     speakerName: MH
     voiceClip: {fileID: 8300000, guid: f1e141804c4b2394c8f90874166eed5d, type: 3}
-  - text: ' You should try it sometime. Or perhaps you shouldn''t. It''s terribly
-      inconvenient. Time stopped for us right here at tea and here we shall remain.
-      Though I must say the company has improved slightly since you arrived.'
+  - text: You should try it sometime. Or perhaps you shouldn't. It's terribly inconvenient.
+      Time stopped for us right here at tea and here we shall remain. Though I must
+      say the company has improved slightly since you arrived.
     portrait: {fileID: 21300000, guid: faf8931feba49234284876a44067210c, type: 3}
     speakerName: MH
     voiceClip: {fileID: 8300000, guid: 05a412213e4377a4aaf05fd11e76babf, type: 3}
