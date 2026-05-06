@@ -1,0 +1,11 @@
+Model Information:
+* title:	Gm_apartment_v2
+* source:	https://sketchfab.com/3d-models/gm-apartment-v2-c1abb3da85b446869ed3d5f86d145d20
+* author:	CHANO (https://sketchfab.com/Chanino)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gm_apartment_v2" (https://sketchfab.com/3d-models/gm-apartment-v2-c1abb3da85b446869ed3d5f86d145d20) by CHANO (https://sketchfab.com/Chanino) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
